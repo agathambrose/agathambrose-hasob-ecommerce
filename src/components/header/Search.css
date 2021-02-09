@@ -1,0 +1,31 @@
+#search-factor{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.search{
+    padding: 1rem;
+    min-width: 150%;
+    border-radius: 50px;
+    background-color: rgb(231, 229, 229);
+    color: black;
+    font-size: .8rem;
+    font-family: inherit;
+    border: none;
+    outline: none;
+}
+
+.search-icon{
+   font-size: 1.9rem;
+   float: left;
+   padding: 3px;
+   border-radius: 10px;
+   overflow: hidden;
+   color: gray;
+   background-color: rgb(231, 229, 229);
+   border: none;
+   outline: none;
+}
+
+/* {revisit!!!!!} */

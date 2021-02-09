@@ -1,0 +1,146 @@
+#dpts-and-products{
+    display: flex;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+.dpts-btn{
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 10px 30px;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 3.2rem;
+}
+
+.all-cat-sect{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.all-cat{
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#cate{
+    margin-bottom: 10px;
+    border: none;
+}
+
+select{
+    font-size: 1rem;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+.ecommerce{
+    color: gray;
+}
+
+.showmore{
+    margin-left: 25px;
+    padding: 10px 30px;
+    background-color: rgb(221, 230, 241);
+    color: blue;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: .8rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.column1{
+    margin-right: rem;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10px;
+    margin-right: 30px;
+    min-width: 80px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.product-card{
+    margin-bottom: 10px;
+}
+
+.product{
+    font-size: .8rem;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.deets{
+    font-size: .7rem;
+}
+
+.price{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.shipping{
+    font-size: .5rem;
+    color: gray;
+}
+
+.product, 
+.deets, 
+.price, 
+.shipping, 
+.watch{
+    margin-left: 2rem;
+    font-family: inherit;
+    margin-bottom: 5px;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+.watch{
+    background-color: white;
+    color: blue;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .6rem;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid blue;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.watch:hover{
+    background-color: cornflowerblue;
+}
+
+.heart-btn{
+    margin-right: 5px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }

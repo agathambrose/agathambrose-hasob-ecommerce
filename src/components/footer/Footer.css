@@ -1,0 +1,114 @@
+footer{
+    background-color: rgb(1, 1, 44);
+    margin-top: 20px;
+    /* position: absolute;
+    bottom: 0; */
+    /* padding-bottom: 40px; */
+}
+
+ul{
+    list-style: none;
+}
+
+.pages-container{
+    display: flex;
+    /* margin-bottom: 20px; */
+    justify-content: flex-end;
+    color: white;
+    width: 100%;
+}
+
+.pgs{
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.pages{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.pages-listing{
+    margin-bottom: 15px;
+}
+
+.designer-container{
+    font-size: 17px;
+    margin-top: 20px;
+    padding-left: 25px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.designer{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.dsnr{
+    margin-bottom: 15px;
+}
+
+.col-2dsnr{
+    margin-top: 53px;
+    /* margin-bottom: 60px; */
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.cn-soc{
+    margin-right: 35px;
+    margin-left: 50px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.contact{
+
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.address-icon{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.phone-icon{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.twtr{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.fbk{
+    font-size: 30px;
+    margin-right: 10px;
+
+}
+
+.lkdn{
+    font-size: 30px;
+    margin-right: 10px;
+}

@@ -1,0 +1,65 @@
+.header{
+    height: 80px;
+    margin: 0.8rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{ 
+    margin-left: 10px;
+    color: black;
+    font-weight: 600;
+    font-size: 2rem;
+    display: flex;
+    outline: none;
+    align-items: center;
+}
+
+.hamburger{
+    margin-right: 10px;
+    width: 30px;
+}
+
+.signin-sect{
+    display: flex;
+    align-items: center;
+}
+
+.sign-in{
+    background-color: white;
+    color: blue;
+    margin-right: 10px;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .8rem;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.sign-in :hover{
+    transition: 3s ease;
+    cursor: pointer;
+}
+
+.cart{
+    font-size: 2rem;
+    color: black;
+}
+
+.cart:hover{
+    color: blue;
+}
+
+.user-image{
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
