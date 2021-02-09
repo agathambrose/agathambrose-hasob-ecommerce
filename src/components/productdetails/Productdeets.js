@@ -12,7 +12,7 @@ const Productdeets = (props) => {
     }
 
     const {productId} = useParams();
-    const product = PRODUCTDATA.find(item => item.id == productId);
+    const product = PRODUCTDATA.find(item => item.id === productId);
     return (
         <div className='product___deets'>
             <div className='name-sect'>

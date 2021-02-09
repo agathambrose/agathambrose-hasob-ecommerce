@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './Home.css'
-import { PRODUCTDATA } from '../../data/Productdata'
 import Footer from '../footer/Footer'
 import { BiHeart } from 'react-icons/bi'
 import { Link } from 'react-router-dom'
