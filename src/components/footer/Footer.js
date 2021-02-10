@@ -10,8 +10,8 @@ import { HiOutlineLocationMarker } from 'react-icons/hi'
 const Footer = () => {
     return (
         <footer>
-            <div className='pages-container'>
-                <div className='pgs'>
+            <div className='pages-container col-md-11'>
+                <div className='pgs col-md-1'>
                     <ul>
                     <h4 className='pages'>Pages</h4>
                     <li className='pages-listing'>Home</li>
@@ -22,7 +22,7 @@ const Footer = () => {
                     </ul>
                 </div>    
             
-                <div className='designer-container'>
+                <div className='designer-container col-md-4'>
                     <ul>
                     <h4 className='designer'>Top Designer Brands</h4>
 
@@ -41,7 +41,7 @@ const Footer = () => {
                     <li className='dsnr'>Bruce Simmons</li>
                     </ul>
                 </div>    
-                <div className='cn-soc'>
+                <div className='cn-soc col-md-3'>
                     <ul className='contact'>
                         <li className='address'><HiOutlineLocationMarker className='address-icon'/>7480 Mockingbird Hill undefined</li>
                         <i></i>
