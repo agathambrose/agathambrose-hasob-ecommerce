@@ -8,26 +8,32 @@ import user from '../../assets/img/usericon.png'
 
 const Header = (props) => {
     return (
-        <header className="header">
-        <div>
-        <Link to ='/'>
-        <h3 className='logo'><AiOutlineMenu className='hamburger'/>Logo</h3>
-        </Link>
-        </div>
+        <header className='header'>
+            <div className='head-sect'>
+                <div>
+                    <Link to = '/'>
+                        <h3 className='logo-sect'><AiOutlineMenu className='hambur_ger'/>Logo</h3>
+                    </Link>
+                </div>
 
-        <div>
-        <Search search = {props.handleSearch} value= {props.value} className='search'/>
-        </div>
+                <div className='search-sect'>
+                    <Search search = {props.handleSearch} value= {props.value}/>
+                </div>
 
-        <div className ='signin-sect'>
-        <Link to ='/signin'><button className="sign-in">Sign in</button></Link>
+                <div className='sign-in__sect'>
+                    <Link to = '/signin'>
+                        <button className='sign-in__btn'>Sign In</button>
+                    </Link>
 
-        <Link to ='/UserCart'>
-        <AiOutlineShoppingCart className='cart'/>
-        </Link>
+                    <Link to='/UserCart'>
+                        <AiOutlineShoppingCart className='cart__icon'/>
+                    </Link>
+                    
 
-        <img className='user-image' src={user} alt='user'/>
-        </div>
+                    <img className='user__image' src={user} alt='user'/>
+                </div>
+            </div>
+            
         </header>
     )
 }

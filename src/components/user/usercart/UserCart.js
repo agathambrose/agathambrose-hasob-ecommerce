@@ -18,29 +18,31 @@ if(props.wishList.length === 0){
     list = props.wishList.map(item =>{
         return(
             <div className='usrCt'>
-                <div className='img-sect col-md-6'>
+                <div className='img-sect col-md-8'>
                     <img className='cart-img' src ={item.image} alt={'images'}/>
-                    <div> 
+                    <div className='cart__descrip'> 
                     <li className='cart-list'><strong>{item.productname}</strong></li>
                     <li className='cart-productdetails'>{item.productdetails}</li>
 
                     <div className='rmsave'>
                         <p className='sv'><IoMdHeart className='sv-icon'/>Save</p>
                         
+                        <p className='rm' onClick = {() => props.remove(item.id)}><IoMdTrash className='rm-icon'/>Remove</p>
+                    </div>
+
+                    <div className='pls-min__btn'>
                         <button className='plbtn' onClick = {() => props.increase(item, item.id)}><HiOutlinePlus/></button>
 
                         <button className='minbtn' onClick = {() => props.decrease(item, item.id)} disabled = {item.quantity < 2}><BiMinus/></button>
-
-                        <p className='rm' onClick = {() => props.remove(item.id)}><IoMdTrash className='rm-icon'/>Remove</p>
                     </div>
                     </div>
                 </div>
 
-                    <div className='cart-qty col-md-2'>
+                    <div className='cart-qty col-md-1'>
                         <p>{item.quantity}</p>
                     </div>
 
-                    <div className='cart-price col-md-2'>
+                    <div className='cart-price col-md-1'>
                         <p>
                         {item.unitPrice}
                         </p>

@@ -1,9 +1,5 @@
 footer{
     background-color: rgb(1, 1, 44);
-    margin-top: 20px;
-    /* position: absolute;
-    bottom: 0; */
-    /* padding-bottom: 40px; */
 }
 
 ul{
@@ -12,61 +8,43 @@ ul{
 
 .pages-container{
     display: flex;
-    /* margin-bottom: 20px; */
     justify-content: flex-end;
     color: white;
-    width: 82%;
-}
-
-.pgs{
-    font-size: 17px;
-    margin-top: 20px;
+    /* width: 82%; */
 }
 
 .pages{
     font-size: 20px;
-    margin-bottom: 30px;
 }
 
-.pages-listing{
-    margin-bottom: 15px;
+.pgs{
+    font-size: 15px;
+    margin: 30px 5px 0 30px;
+}
+
+.pages-listing, 
+.dsnr{
+    margin-bottom: 10px;
 }
 
 .designer-container{
-    font-size: 17px;
-    margin-top: 20px;
-    /* padding-left: 25px;
-    margin-left: 40px; */
-    margin-bottom: 40px;
+    margin: 30px 20px 30px 40px;
+}
+
+.dsnr__list{
     display: flex;
-    justify-content: space-around;
 }
 
 .designer{
     font-size: 20px;
-    margin-bottom: 30px;
-}
-
-.dsnr{
-    margin-bottom: 15px;
 }
 
 .col-2dsnr{
-    margin-top: 53px;
-    /* margin-bottom: 60px; */
-    padding-left: 20px;
     margin-left: 20px;
 }
 
 .cn-soc{
-    margin-right: 35px;
-    margin-left: 50px;
-    padding-left: 20px;
-    margin-top: 20px;
-}
-
-.contact{
-
+    margin: 30px 3px 0 5px;
 }
 
 .address{
@@ -76,7 +54,7 @@ ul{
 }
 
 .address-icon{
-    font-size: 30px;
+    font-size: 40px;
     margin-right: 10px;
 }
 
@@ -111,4 +89,95 @@ ul{
 .lkdn{
     font-size: 30px;
     margin-right: 10px;
+}
+
+
+
+/* ____________TABLET VIEW__________ */
+@media only screen and (min-width: 600px){
+    .pages-container{
+        width: 100%;
+    }
+
+    .pages{
+        font-size: 25px;
+    }
+
+    .pages-listing{
+        margin-bottom: 20px;
+    }
+
+    .designer{
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+
+    .dsnr{
+        margin-bottom: 18px;
+    }
+
+    .cn-soc{
+        margin: 30px 30px 0 5px;
+    }
+    
+    .address, 
+    .phone{
+        margin-bottom: 4rem;
+    }
+    
+    .address-icon{
+        font-size: 35px;
+    }
+}
+
+
+/* ____________DESKTOP VIEW__________ */
+@media only screen and (min-width: 600px){
+    .pages-container{
+        width: 88%;
+    }
+
+    .pgs{
+        margin-right: 3rem;
+    }
+
+    .pages{
+        font-size: 25px;
+    }
+
+    .pages-listing{
+        margin-bottom: 20px;
+    }
+
+    .designer-container{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .designer{
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+
+    .dsnr{
+        margin-bottom: 18px;
+    }
+
+    .col-2dsnr{
+        margin-left: 40px;
+    }
+
+    .cn-soc{
+        margin: 30px 30px 0 5px;
+        margin-left: 30px;
+    }
+    
+    .address, 
+    .phone{
+        margin-bottom: 4rem;
+    }
+    
+    .address-icon{
+        font-size: 35px;
+    }
 }

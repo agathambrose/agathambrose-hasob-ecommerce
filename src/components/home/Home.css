@@ -1,80 +1,23 @@
 #dpts-and-products{
     display: flex;
+    margin: 30px 10px;
 }
-
-ul{
-    list-style-type: none;
-}
-
-.dpts-btn{
-    font-size: 1.1rem;
-    font-weight: 700;
-    padding: 10px 30px;
-    background-color: white;
-    color: blue;
-    border: 1px solid blue;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    margin-left: 3.2rem;
-}
-
-.all-cat-sect{
-    margin-left: 5rem;
-    margin-right: 5rem;
-}
-
-.all-cat{
-    font-family: inherit;
-    font-size: 1rem;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-#cate{
-    margin-bottom: 10px;
-    border: none;
-}
-
-select{
-    font-size: 1rem;
-    font-family: inherit;
-    font-weight: 300;
-}
-
-.ecommerce{
-    color: gray;
-}
-
-.showmore{
-    margin-left: 25px;
-    padding: 10px 30px;
-    background-color: rgb(221, 230, 241);
-    color: blue;
-    font-family: inherit;
-    font-weight: 600;
-    font-size: .8rem;
-    border-radius: 5px;
-    border: none;
-}
-
-/* .column1{
-    padding-right: 1rem;
-} */
 
 .products{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    margin-top: 10px;
-    margin-right: 30px;
+    margin: 10px 30px 20px 10px;
     min-width: 80px;
-    border: 1px solid gray;
-    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
 }
 
 .product-card{
-    margin-bottom: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
     width: 100%;
     max-width: 240px;
+    background-color: white;
+    box-shadow: 2px 2px 15px 2px rgb(223, 222, 222);
 }
 
 .product{
@@ -104,7 +47,7 @@ select{
 .watch{
     margin-left: 2rem;
     font-family: inherit;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     padding-right: 20px;
     justify-content: center;
 }
@@ -136,12 +79,3 @@ select{
 .heart-btn{
     margin-right: 5px;
 }
-
-
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-      width: 100%;
-    }
-  }

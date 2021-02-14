@@ -1,12 +1,6 @@
-#search-factor{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-}
-
 .search{
-    padding: 1rem;
-    min-width: 150%;
+    padding: .7rem 1.5rem;
+    /* min-width: 50%; */
     border-radius: 50px;
     background-color: rgb(231, 229, 229);
     color: black;
@@ -16,16 +10,18 @@
     outline: none;
 }
 
-.search-icon{
-   font-size: 1.9rem;
-   float: left;
-   padding: 3px;
-   border-radius: 10px;
-   overflow: hidden;
-   color: gray;
-   background-color: rgb(231, 229, 229);
-   border: none;
-   outline: none;
+/* ________________ TABLET VIEW______________ */
+@media only screen and (min-width: 600px){
+    .search{
+        padding: .7rem 2.5rem;
+        }
 }
 
-/* {revisit!!!!!} */
+
+
+/* _______________DESKTOP VIEW_________________ */
+@media only screen and (min-width: 768px){
+    .search{
+    padding: .8rem 5rem .8rem 3rem;
+    }
+}

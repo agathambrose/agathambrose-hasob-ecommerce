@@ -4,6 +4,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  useHistory
 } from "react-router-dom";
 import Header from './components/header/Header';
 import Home from './components/home/Home';
@@ -61,11 +62,13 @@ class App extends Component {
   handleSearch = (event) =>{
     let target = event.target.value
     let products = this.state.products;
+   // let history = useHistory();
     
 
     if (target.trim() === '') products = this.state.unfilteredProducts
     
     else {
+     // history.push(`search/${target}`)
         products = products.filter(product => product.productname.toLowerCase().indexOf(target.toLowerCase()) !== -1)
     }
     this.setState({input: target, products: products})

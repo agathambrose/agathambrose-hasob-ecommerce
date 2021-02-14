@@ -1,18 +1,28 @@
 
 .cartHead{
     display: flex;
-    margin: 20px;
+    margin: 20px 10px;
 }
 
 .cart-list, 
 .cart-productdetails{
     list-style: none;
+    font-size: 12px;
+}
+
+.cart-productdetails{
+    text-align: justify;
+}
+
+.cart__descrip{
+    margin-right: 20px;
 }
 
 .img-sect{
     display: flex;
     align-items: center;
-    margin-top: 45px;
+    margin-top: 35px;
+    margin-right: 60px;
 }
 
 
@@ -20,15 +30,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 0px 20px 0 20px;
-    border: 1px solid gray;
+    margin-bottom: 10px;
     border-radius: 10px;
+    box-shadow: 2px 2px 15px 2px rgb(223, 222, 222);
 }
 
-.usrCt{
+ .usrCt{
     display: flex;
     align-items: center;
 }
+
+.cart-img{
+    width: 30%;
+}
+
 
 .cart-total{
     display: flex;
@@ -37,9 +52,15 @@
     font-size: 25px;
 }
 
+.pls-min__btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 .rmsave{
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     justify-content: space-between;
     align-items: center;
 }
@@ -48,7 +69,7 @@
     margin-right: 5px;
     color: rgb(211, 31, 31);
     font-weight: 600;
-    font-size: 1rem;
+    font-size: .8rem;
     display: flex;
     outline: none;
     align-items: center;
@@ -58,30 +79,31 @@
     margin-right: 2.5rem;
     color: rgb(211, 31, 31);
     font-weight: 600;
-    font-size: 1rem;
+    font-size: .8rem;
     display: flex;
     outline: none;
     align-items: center;
 }
 
-.sv-icon, .rm-icon{
+/* .sv-icon, .rm-icon{
     margin-right: 10px;
     width: 20px;
-}
+} */
 
 .plbtn,
 .minbtn{
     font-size: 10px;
-    margin-bottom: 10px;
     padding-left: 2px;
     padding-right: 2px;
     border-radius: 5px;
     border: 1px solid #aaaaaa;
-    background-color: rgb(95, 158, 160);
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(223, 222, 222);
 }
 
 .minbtn{
-    background-color: rgb(160, 105, 95);
+    /* background-color: rgb(160, 105, 95); */
+    margin-left: 10px;
 }
 
 .ctn_shpn-check_out{

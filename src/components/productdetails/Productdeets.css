@@ -4,16 +4,17 @@
 
 .name-sect{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .deets__img{
-    width: 20%;
+    width: 80%;
 }
 
 .product__descrip{
     margin: 30px;
     line-height: 36px;
+    text-align: justify;
 }
 
 .ratings__star{
@@ -59,4 +60,28 @@
     cursor: pointer;
     border: none;
     border-radius: 5px;
+}
+
+
+/* _____________TABLET VIEW ___________ */
+@media only screen and (min-width: 600px){
+    .deets__img{
+        width: 50%;
+    }
+}
+
+
+/* _____________DESKTOP VIEW ___________ */
+@media only screen and (min-width: 768px){
+    .deets__img{
+        width: 25%;
+    }
+    
+    .name-sect{
+        justify-content: space-around;
+    }
+
+    .product__descrip{
+        margin: 30px 50px;
+    }
 }
