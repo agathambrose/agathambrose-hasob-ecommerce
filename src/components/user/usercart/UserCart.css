@@ -10,52 +10,28 @@
     font-size: 12px;
 }
 
-.cart-productdetails{
-    text-align: justify;
-}
-
-.cart__descrip{
-    margin-right: 20px;
+.usrCt{
+    display: flex;
+    align-items: center;
 }
 
 .img-sect{
     display: flex;
     align-items: center;
     margin-top: 35px;
-    margin-right: 60px;
 }
 
+.cart-img{
+    width: 35%;
+}
 
 .row1{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin-bottom: 10px;
+    margin: 0 20px 10px 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 15px 2px rgb(223, 222, 222);
-}
-
- .usrCt{
-    display: flex;
-    align-items: center;
-}
-
-.cart-img{
-    width: 30%;
-}
-
-
-.cart-total{
-    display: flex;
-    justify-content: flex-end;
-    margin: 30px;
-    font-size: 25px;
-}
-
-.pls-min__btn{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
 }
 
 .rmsave{
@@ -75,6 +51,11 @@
     align-items: center;
 }
 
+.sv-icon,
+.rm-icon{
+    margin-right: 5px;
+}
+
 .rm{
     margin-right: 2.5rem;
     color: rgb(211, 31, 31);
@@ -85,25 +66,31 @@
     align-items: center;
 }
 
-/* .sv-icon, .rm-icon{
-    margin-right: 10px;
-    width: 20px;
-} */
+.pls-min__btn{
+    display: flex;
+    justify-content: center;
+}
 
 .plbtn,
 .minbtn{
-    font-size: 10px;
-    padding-left: 2px;
-    padding-right: 2px;
+    /* font-size: 10px; */
+    width: 28%;
+    height: 10%;
     border-radius: 5px;
     border: 1px solid #aaaaaa;
     background-color: white;
-    box-shadow: 2px 2px 2px 2px rgb(223, 222, 222);
+    /* box-shadow: 2px 2px 2px 2px rgb(223, 222, 222); */
 }
 
-.minbtn{
-    /* background-color: rgb(160, 105, 95); */
-    margin-left: 10px;
+.cart-qty{
+    margin: 0 5px;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px;
+    font-size: 25px;
 }
 
 .ctn_shpn-check_out{
@@ -132,4 +119,25 @@
     background-color: lightsalmon;
 }
 
-/* @media only screen and (max-width: 7) */
+/* __________DESKTOP VIEW________ */
+@media only screen and (min-width: 748px){
+ .cart-img{
+     width: 50%;
+ }
+
+ .cart-list{
+     font-size: 18px;
+ }
+
+ .cart-productdetails{
+     font-size: 15px;
+ }
+ .sv,
+ .rm{
+     font-size: 1.2rem;
+}
+.plbtn,
+.minbtn{
+    width: 8%;
+}
+}
